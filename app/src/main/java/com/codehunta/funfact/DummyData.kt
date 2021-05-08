@@ -1,31 +1,31 @@
 package com.codehunta.funfact
 
 object DummyData {
-    val funFacts = listOf<FactModel>(
+    val funFacts = listOf(
         FactModel(
-            name = "Kotlin",
+            "Kotlin",
             R.drawable.kt_logo,
-            fact = "ipso facto abi na lorem whatever text. You get the jerk"
+            "ipso facto abi na lorem whatever text. You get the jerk. The koko na make the app work"
         ),
         FactModel(
-            name = "Java",
+            "Java",
             R.drawable.java_logo,
-            fact = "ipso facto abi na lorem whatever text. You get the jerk"
+            "ipso facto abi na lorem whatever text. You get the jerk. The koko na make the app work"
         ),
         FactModel(
-            name = "Python",
+            "Python",
             R.drawable.py_logo,
-            fact = "ipso facto abi na lorem whatever text. You get the jerk"
+            "ipso facto abi na lorem whatever text. You get the jerk. The koko na make the app work"
         ),
         FactModel(
-            name = "JavaScipt",
+            "JavaScipt",
             R.drawable.js_logo,
-            fact = "ipso facto abi na lorem whatever text. You get the jerk"
+            "ipso facto abi na lorem whatever text. You get the jerk. The koko na make the app work"
         ),
         FactModel(
-            name = "PHP",
+            "PHP",
             R.drawable.php_logo,
-            fact = "ipso facto abi na lorem whatever text. You get the jerk"
+            "ipso facto abi na lorem whatever text. You get the jerk. The koko na make the app work"
         )
     )
 }
