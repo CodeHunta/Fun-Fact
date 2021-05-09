@@ -24,6 +24,7 @@
     </RelativeLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
@@ -36,6 +37,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
@@ -57,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="@string/nextButton"/>
+            android:text="@string/nextButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_cancel"
