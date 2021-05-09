@@ -1,6 +1,7 @@
 package com.codehunta.funfact
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,6 +25,19 @@ class FactAdapter(context: Context, facts: List<FactModel>) :
         }
         name?.text = fact?.name
 
+        view?.setOnClickListener {
+            val intent = Intent(parent.context, DetailActivity::class.java)
+            intent.putExtra(LOGO_EXTRAS, fact?.logo)
+            intent.putExtra(NAME_EXTRAS, fact?.name)
+            intent.putExtra(FACT_EXTRAS, fact?.fact)
+            parent.context.startActivity(intent)
+        }
         return view!!
+    }
+
+    companion object{
+        val LOGO_EXTRAS = "logo_extras"
+        val NAME_EXTRAS = "name_extras"
+        val FACT_EXTRAS = "fact_extras"
     }
 }
