@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/imgView_Zuri"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="64dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="32dp"
@@ -51,6 +51,7 @@
             android:id="@+id/inputPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:inputType="textPassword"
             android:backgroundTint="@color/purple_200"/>
 
@@ -61,11 +62,11 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_next"
+            android:id="@+id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
             android:layout_alignParentEnd="true"
             app:cornerRadius="16dp"
             android:text="@string/loginButton" />
