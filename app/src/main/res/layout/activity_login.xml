@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_vertical"
+    android:orientation="vertical"
     android:padding="16dp"
     tools:context=".LoginActivity">
 
@@ -13,6 +13,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
             android:id="@+id/imgView_Zuri"
             android:layout_width="match_parent"
@@ -35,8 +36,8 @@
             android:id="@+id/inputEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:backgroundTint="@color/purple_200"/>
+            android:backgroundTint="@color/purple_200"
+            android:inputType="textEmailAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,8 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:inputType="textPassword"
-            android:backgroundTint="@color/purple_200"/>
+            android:backgroundTint="@color/purple_200"
+            android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,11 +66,11 @@
             android:id="@+id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="16dp"
             android:layout_alignParentEnd="true"
-            app:cornerRadius="16dp"
-            android:text="@string/loginButton" />
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/loginButton"
+            app:cornerRadius="16dp" />
 
 
     </RelativeLayout>

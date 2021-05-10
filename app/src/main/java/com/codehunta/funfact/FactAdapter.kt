@@ -35,9 +35,9 @@ class FactAdapter(context: Context, facts: List<FactModel>) :
         return view!!
     }
 
-    companion object{
-        val LOGO_EXTRAS = "logo_extras"
-        val NAME_EXTRAS = "name_extras"
-        val FACT_EXTRAS = "fact_extras"
+    companion object {
+        const val LOGO_EXTRAS = "logo_extras"
+        const val NAME_EXTRAS = "name_extras"
+        const val FACT_EXTRAS = "fact_extras"
     }
 }

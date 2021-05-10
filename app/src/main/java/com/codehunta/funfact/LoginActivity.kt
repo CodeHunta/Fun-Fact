@@ -1,10 +1,9 @@
 package com.codehunta.funfact
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.codehunta.funfact.databinding.ActivityLoginBinding
 import com.google.android.material.button.MaterialButton
 
@@ -30,8 +29,9 @@ class LoginActivity : AppCompatActivity() {
         if (email == "codehunta@zuri.com" && password == "SuperM4n") {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-        }else {
-            Toast.makeText(this, "Provide appropriate email & password to login", Toast.LENGTH_LONG).show()
+        } else {
+            Toast.makeText(this, "Provide appropriate email & password to login", Toast.LENGTH_LONG)
+                .show()
         }
     }
 }

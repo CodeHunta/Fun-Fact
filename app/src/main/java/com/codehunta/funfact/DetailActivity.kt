@@ -1,15 +1,15 @@
 package com.codehunta.funfact
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import androidx.appcompat.app.AppCompatActivity
 import com.codehunta.funfact.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
     private var binding: ActivityDetailBinding? = null
     private var logo = 0
-    private var name:String? = null
-    private var detail:String? = null
+    private var name: String? = null
+    private var detail: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +21,7 @@ class DetailActivity : AppCompatActivity() {
         setUpDetail()
     }
 
-    private fun setUpDetail(){
+    private fun setUpDetail() {
         //binding?.txtViewDetails?.text = detail
         binding?.txtViewFact?.text = detail
         binding?.imgViewLogo?.setImageResource(logo)
